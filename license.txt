@@ -1,0 +1,39 @@
+/* *********************************************************************************************
+*			Open Job CMS
+* ----------------
+* copyright		:	(c) Monoray
+*               	http://monoray.net
+* contact us	:	http://monoray.net/contact
+*
+* license:		:	http://open-real-estate.info/en/license
+*
+* This file is part of Open Job CMS
+*
+* ********************************************************************************************* */
+
+Licenses:
+(Module, path, license)
+
+Yii framework, /framework, BSD, http://www.yiiframework.com/license/
+Yii-User module, /protected/modules/user, BSD, http://www.opensource.org/licenses/bsd-license.php
+EChosen, /protected/extensions/EChosen, MIT, http://ifdattic.com/MIT-license.txt
+Sypex Geo, /protected/extensions/geoip, BSD, http://sypex.net/bsd_license.txt
+ImperaviRedactorWidget, /protected/extensions/imperavi-redactor-widget, BSD, https://github.com/yiiext/imperavi-redactor-widget/blob/master/license.md
+Twitter Bootstrap, /protected/extensions/bootstrap/assets, Apache License v2.0, http://www.apache.org/licenses/LICENSE-2.0
+Phpmailer, /protected/extensions/mailer/phpmailer, LGPL,  http://www.gnu.org/licenses/lgpl.html
+CssMin, /protected/extensions/minify/CssMin.php, MIT, http://www.opensource.org/licenses/mit-license.php
+JSMinPlus, /protected/extensions/minify/JSMinPlus.php, LGPL, http://www.gnu.org/licenses/lgpl.html
+Jeditable, /js/jquery.jeditable.js, MIT, http://www.opensource.org/licenses/mit-license.php
+CImageHandler, /protected/modules/images/components/CImageHandler.php, MIT, http://www.opensource.org/licenses/mit-license.php
+EAjaxUpload, /protected/extensions/EAjaxUpload, BSD, http://www.opensource.org/licenses/bsd-license.php
+PrettyPhoto, /protected/modules/images/assets/prettyphoto, Creative Commons 2.5, http://creativecommons.org/licenses/by/2.5/
+jQuery Cookie plugin, /js/jquery.cookie.js, MIT, http://www.opensource.org/licenses/mit-license.php
+jsTree, /js/jquery.jstree.js, MIT, http://www.opensource.org/licenses/mit-license.php
+jFlow, /js/jflow.plus.js, MIT, http://www.opensource.org/licenses/mit-license.php
+HabraAlert, js/habra_alert.js, license as-is PL, http://deer.org.ua/habraalert/index.html
+jQuery blockUI plugin, /js/blockUI.js, MIT, http://www.opensource.org/licenses/mit-license.php
+TipTip, /js/tooltip/*, MIT, http://www.opensource.org/licenses/mit-license.php
+flexslider, /js/jquery.flexslider.js, GPLv2, https://github.com/woothemes/FlexSlider/blob/master/LICENSE.md
+jQuery Superfish Menu Plugin, /js/superfish/*, MIT, http://www.opensource.org/licenses/mit-license.php
+jQuery Cookie plugin, /js/jquery.cookie.js, MIT, http://www.opensource.org/licenses/mit-license.php
+cookiebar, /js/cookiebar/*, Creative Commons 3.0, http://creativecommons.org/licenses/by/3.0/

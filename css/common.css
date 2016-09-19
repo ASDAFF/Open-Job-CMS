@@ -1,0 +1,206 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+h1 {
+    font-size: 30px !important;
+}
+.width150{width: 150px;}
+.width200{width: 200px;}
+.width250{width: 250px;}
+.width300{width: 300px;}
+.width400{width: 400px;}
+.width500{width: 500px;}
+
+.height200{height: 200px;}
+
+img.captchaImg{display: block;}
+
+.inline{display: inline !important;}
+
+.message_ava {
+    float: left;
+}
+.message_ava.mini{
+    width: 42px;
+}
+
+.clear {
+    clear: both;
+}
+
+.wysibb-text-iframe {
+    min-height: 200px;
+    min-width: 500px;
+    overflow: auto;
+}
+
+
+div.message_top_line {
+    float: left;
+    margin: 0 0 10px;
+}
+
+.message {
+    position: relative;
+}
+
+.message_body {
+    position: relative;
+    float: left;
+    width: 500px;
+}
+
+/* bubble http://stackoverflow.com/questions/8866736/css-speech-bubble-with-box-shadow AND http://jsfiddle.net/ThinkingStiff/mek5Z/ */
+
+.bubble{
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+}
+
+.bubble::before {
+    background-color: #FFF;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:         rotate( 29deg ) skew( -35deg );
+    -moz-transform:    rotate( 29deg ) skew( -35deg );
+    -ms-transform:     rotate( 29deg ) skew( -35deg );
+    -o-transform:      rotate( 29deg ) skew( -35deg );
+    -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+.bubble.red::before, .bubble.red{
+    background-color: #FFC0CB !important;
+}
+.bubble.green::before, .bubble.green{
+    background-color: #b9ffc1 !important;
+}
+
+
+.me {
+    float: left;
+    margin: 5px 45px 5px 20px;
+}
+
+.me::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;
+}
+
+.you {
+    float: right;
+    margin: 5px 20px 5px 45px;
+}
+
+.you::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;
+}
+
+/* portfolio */
+
+.portfolio-item {
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.portfolio-item textarea {
+    max-height: 200px;
+    width: 186px;
+}
+
+.portfolio-del {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.portfolio-img {
+    padding: 4px;
+}
+
+/* user list */
+
+sup.junior {
+    color: #a8ff1e;
+    text-shadow: 1px 2px 2px #CCC;
+}
+
+sup.senior {
+    color: #1e1aff;
+    text-shadow: 1px 2px 2px #CCC;
+}
+
+sup.expert {
+    color: #feff12;
+    text-shadow: 1px 2px 2px #CCC;
+}
+
+.user-name { float: left; }
+.user-full-name { font-weight: bold; padding-left: 10px; }
+.user-activity { padding-left: 10px; float: left; }
+.user-salary { padding-left: 10px; float: left; }
+.user-salary span { font-weight: bold; }
+.user-about-us { padding-top: 10px; }
+
+.user-skills { padding-top: 5px; }
+.user-skills .label { cursor: default; }
+.user-portfolio { padding-top: 10px; }
+.user-portfolio a { padding-left: 3px; }
+
+.user-view-skills { padding-top: 15px; }
+.user-view-portfolio { padding-top: 15px; }
+.user-view-action { padding-top: 15px; }
+.user-bottom-line { padding-top: 15px; }
+
+.user-ava {
+    width: 90px;
+    height: 90px;
+    float: left;
+    padding-right: 10px;
+}
+.user-ava-crop {
+    display: inline-block;
+    width: 83px;
+    height: 83px;
+    overflow: hidden;
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
+    outline: 1px solid #CCCCCC;
+    /*margin: 10px;*/
+}
+.user-ava-crop img {
+    width: 83px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-left-block, .user-right-block {
+    display: inline-block;
+}
+
+.user-right-block {
+    vertical-align: top;
+}
+
+.activity-free {
+    font-weight: bold;
+    color: #00FF00;
+}
+
+.user-view-action { padding-bottom: 10px; }
+
+li.top-info a { color: #00f400 !important; }
+li.top-info a:hover { color: #00b800 !important; }
